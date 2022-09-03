@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Favourite Food webApp</title>
+  </head>
+  <style>
+    .nav {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #1b4d89;
+    }
+
+    .navContent {
+      float: left;
+    }
+
+    .navContent a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    .navContent a:hover {
+      background-color: #042348;
+    }
+    img {
+      width: 500px;
+      height: 500px;
+    }
+    .food {
+        text-align: center;
+    }
+    .food p {
+        font-size: 18px;
+    }
+    .foodname {
+        text-decoration: none;
+        color: rgb(63, 62, 62);
+        font-size: 18px;
+    }
+  </style>
+  <body style="background-color: #bdd6f5">
+    <ul class="nav">
+      <li class="navContent"><a href="#">Index</a></li>
+      <li class="navContent"><a href="#">Food</a></li>
+      <li class="navContent"><a href="#">About</a></li>
+    </ul>
+    <h2 style="color: rgb(63, 62, 62)">Top 5 favourites foods</h2>
+    <ul>
+      <li><a class="foodname" href="#biryani">Biryani</a></li>
+      <li><a class="foodname" href="#cake">Cake</a></li>
+      <li><a class="foodname" href="#pizza">Pizza</a></li>
+      <li><a class="foodname" href="#dosa">Masala Dosa</a></li>
+      <li><a class="foodname" href="#golgappe">Golgappe</a></li>
+    </ul>
+    <div class="food">
+      <img src="./biryani.jpg" alt="biryani" id="biryani" />
+      <p>Biryani</p>
+    </div>
+    <div class="food">
+      <img src="./cake.jpg" alt="cake" id="cake" />
+      <p>Cake</p>
+    </div>
+    <div class="food">
+      <img src="./pizza.jpg" alt="pizza" id="pizza" />
+      <p>Pizza</p>
+    </div>
+    <div class="food">
+      <img src="./dosa.jpg" alt="masala dosa" id="dosa" />
+      <p>Masala Dosa</p>
+    </div>
+    <div class="food">
+      <img src="./golgappe.jpg" alt="golgappe" id="golgappe" />
+      <p>Golgappe</p>
+    </div>
+  </body>
+</html>
